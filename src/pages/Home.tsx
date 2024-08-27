@@ -1,11 +1,11 @@
 import Header from "../components/Header";
-
+import Seeproduct from "../components/seeProduct";
 function Home() {
   return (
     <div>
       <Header />
-      Home
-      {/* <img src="\assets\photos\IMG-20240822-WA0017.jpg" alt="" /> */}
+      <Seeproduct></Seeproduct>
+      
     </div>
   );
 }
