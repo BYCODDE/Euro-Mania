@@ -1,5 +1,5 @@
-import humburger from "../assets/humburger.svg";
-import cart from "../assets/cart.svg";
+import humburger from "/assets/svg/humburger.svg";
+import cart from "/assets/svg/cart.svg";
 function Header() {
   return (
     <header className="font-playfair p-[24px] pt-[37px] pb-[37px] w-full h-full bg-black text-white flex justify-between">
