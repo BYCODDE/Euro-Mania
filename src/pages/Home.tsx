@@ -1,3 +1,4 @@
+import Category from "../components/Category";
 import Header from "../components/Header";
 import Seeproduct from "../components/seeProduct";
 function Home() {
@@ -5,7 +6,7 @@ function Home() {
     <div>
       <Header />
       <Seeproduct></Seeproduct>
-      
+      <Category></Category>
     </div>
   );
 }
