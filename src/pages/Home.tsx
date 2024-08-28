@@ -2,12 +2,12 @@ import Aboutus from "../components/Aboutus";
 import Category from "../components/Category";
 import Fotter from "../components/Fotter";
 import Header from "../components/Header";
-import Seeproduct from "../components/Seeproduct";
+import Headerproduct from "../components/Headerproduct";
 function Home() {
   return (
     <div>
       <Header />
-      <Seeproduct></Seeproduct>
+      <Headerproduct></Headerproduct>
       <Category></Category>
       <Aboutus></Aboutus>
       <Fotter></Fotter>

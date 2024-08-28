@@ -1,5 +1,5 @@
 import backgroundImage from "/assets/photos/123123.png";
-function Seeproduct() {
+function Headerproduct() {
   return (
     <div
       className="gap-[40px] flex justify-center items-center flex-col bg-cover bg-center h-full w-full text-white text-center"
@@ -11,7 +11,7 @@ function Seeproduct() {
       <h2 className="text-[23px] font-bold leading-[40px] tracking-[1.286px] ">
         POLO-ს ორიგინალი ზედები{" "}
       </h2>
-      
+
       <button className="flex justify-center items-center mb-[50px] max-w-[160px] max-h-[48px] bg-[#D87D4A] p-[24px]">
         იხილეთ პროდუქტი
       </button>
@@ -19,4 +19,4 @@ function Seeproduct() {
   );
 }
 
-export default Seeproduct;
+export default Headerproduct;
