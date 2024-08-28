@@ -1,6 +1,6 @@
 import Category from "../components/Category";
 import Header from "../components/Header";
-import Seeproduct from "../components/seeProduct";
+import Seeproduct from "../components/Seeproduct";
 function Home() {
   return (
     <div>
