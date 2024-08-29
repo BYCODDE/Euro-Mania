@@ -2,7 +2,7 @@ import logo from "/assets/svg/euro-mania-high-resolution-logo.svg";
 
 function Aboutus() {
   return (
-    <div className="font-bold text-[20px] gap-[10px] flex justify-center flex-col  items-center p-[24px] ">
+    <div className="font-bold text-[20px] gap-[10px] flex justify-center flex-col  items-center p-[24px] text-center">
       <img
         src={logo}
         alt="logo"
