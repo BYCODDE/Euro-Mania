@@ -1,12 +1,13 @@
-// import Header from "./Header"
+import Category from "./Category";
+import Header from "./Header";
 
+function Burger() {
+  return (
+    <div>
+      <Header></Header>
+      <Category></Category>
+    </div>
+  );
+}
 
-// function Burger() {
-//   return (
-//     <Burger>
-//       <Header
-//     </Burger>
-//   )
-// }
-
-// export default Burger
+export default Burger;
