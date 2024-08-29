@@ -2,10 +2,16 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Shirts from "./pages/Shirts";
 import Tshirt from "./pages/Tshirt";
-import { createContext, useState } from "react";
+import { createContext, useState, Dispatch, SetStateAction } from "react";
 
-// Create the BurgerContext
-const BurgerContext = createContext();
+interface BurgerContextType {
+  burger: boolean;
+  setBurger: Dispatch<SetStateAction<boolean>>;
+}
+
+export const BurgerContext = createContext<BurgerContextType | undefined>(
+  undefined
+);
 
 function App() {
   const [burger, setBurger] = useState(false);

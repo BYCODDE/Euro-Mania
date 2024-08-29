@@ -1,11 +1,13 @@
 import Category from "./Category";
-import Header from "./Header";
 
 function Burger() {
   return (
     <div>
-      <Header></Header>
-      <Category></Category>
+      <nav>
+        <ul>
+          <Category />
+        </ul>
+      </nav>
     </div>
   );
 }
