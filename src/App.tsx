@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Shirts from "./pages/Shirts";
-import Tshirt from "./pages/Tshirt";
+// import Tshirt from "./pages/Tshirt";
 import { createContext, useState, Dispatch, SetStateAction } from "react";
 
 interface BurgerContextType {
@@ -22,7 +22,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/shirts" element={<Shirts />} />
-          <Route path="/t-shirts" element={<Tshirt />} />
+          {/* <Route path="/t-shirts" element={<Tshirt />} /> */}
         </Routes>
       </Router>
     </BurgerContext.Provider>

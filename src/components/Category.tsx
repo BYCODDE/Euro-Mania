@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import backgroundImage from "/assets/photos/IMG-20240822-WA0029.jpg";
+import backgroundImage from "/assets/photos/t-shirts/category2.jpg";
 import backgroundImage2 from "/assets/photos/category.jpeg";
 import arrow from "/assets/svg/arrow.svg";
 function Category() {
