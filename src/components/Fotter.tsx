@@ -16,12 +16,12 @@ function Fotter() {
             </li>
             <li>
               <Link className="cursor-pointer" to="/shirts">
-                მაისურები
+                პერანგები
               </Link>
             </li>
             <li>
               <Link className="cursor-pointer" to="/t-shirts">
-                პერანგები
+                მაისურები
               </Link>
             </li>
           </ul>

@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import "../App.css";
 import Fotter from "../components/Fotter";
 
-function Tshirt() {
+function Shirts() {
   const settings = {
     dots: true,
     infinite: true,
@@ -24,7 +24,7 @@ function Tshirt() {
         className="flex justify-center items-center font-playfair p-[24px] pt-[37px] pb-[37px] w-full bg-black text-white text-[30px] tracking-[1.071px]"
         style={{ borderBottom: "2px solid rgba(255, 255, 255, 0.104)" }}
       >
-        მაისურები
+        პერანგები
       </div>
 
       <div className="slider-container ">
@@ -167,4 +167,4 @@ function Tshirt() {
   );
 }
 
-export default Tshirt;
+export default Shirts;
